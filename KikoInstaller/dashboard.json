@@ -1,0 +1,83 @@
+{
+    "param": {
+        "sessionId": null,
+        "userUid": "USR2015120002",
+        "userId": "88"
+    },
+    "act": "home",
+    "success": "true",
+    "msg": "Welcome",
+    "user": {
+        "imgUrl": "url",
+        "imgThumbUrl": "url",
+        "username": "John"
+    },
+    "dashboard": {
+        "no_of_installation": "3",
+        "no_of_maintenance": "3",
+        "no_of_quotes": "0"
+    },
+    "object": [
+               "upcoming_installation",
+               "upcoming_maintenance",
+               "jobs_for_quotes"
+               ],
+    "installation": [
+                     {
+                     "plan_name": "55 Border Drive",
+                     "date": "Jan 20,2017",
+                     "type": "file",
+                     "confirm_plan": "1"
+                     },
+                     {
+                     "plan_name": "10 High Street",
+                     "date": "Jan 10,2017",
+                     "type": "folder",
+                     "areas": [
+                               {
+                               "area_name": "Area 1",
+                               "date": "Jan 10,2017"
+                               },
+                               {
+                               "area_name": "Area 2",
+                               "date": "Jan 10,2017"
+                               },
+                               {
+                               "area_name": "Area 3",
+                               "date": "Jan 10,2017"
+                               }
+                               ],
+                     "confirm_plan": "0"
+                     },
+                     {
+                     "plan_name": "42 Wallaby Way",
+                     "date": "Jan 15,2017",
+                     "type": "file",
+                     "confirm_plan": "0"
+                     }
+                     ],
+    "maintenance": [
+                    {
+                    "plan_name": "10 Downing Street",
+                    "date": "Jan 10,2017",
+                    "type": "file",
+                    "confirm_plan": "0"
+                    },
+                    {
+                    "plan_name": "4 Church Street",
+                    "date": "Jan 15,2017",
+                    "type": "file",
+                    "confirm_plan": "0"
+                    },
+                    {
+                    "plan_name": "56 Garden Street",
+                    "date": "Jan 20,2017",
+                    "type": "file",
+                    "confirm_plan": "0"
+                    }
+                    ],
+    "jobs_for_quotes": [
+                      
+                        ],
+    "type": "Array"
+}

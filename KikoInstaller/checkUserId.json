@@ -1,0 +1,16 @@
+{
+    "param": {
+        "sessionId": null,
+        "userUid": "USR2015120002",
+        "userId": "88"
+    },
+    "act": "home",
+    "success": "true",
+    "msg": "Welcome",
+    "user": {
+        "imgUrl": "url",
+        "imgThumbUrl": "url",
+        "username": "john@brightgreen.com",
+        "password": "kiko1234"
+    }
+}

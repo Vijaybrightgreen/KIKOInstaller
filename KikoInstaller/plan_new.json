@@ -1,0 +1,82 @@
+{
+  "name": "HOUSE PLANS",
+  "data": [
+    {
+      "name": "Installation",
+      "type": "img",
+      "plans": [
+        {
+          "img_id": "0001",
+          "plan_name": "35 Stirling Highway",
+          "image": "URL",
+          "type": "file",
+          "hotspot": [
+            {
+              "desc": "desc_of_router",
+              "img_id": "0001",
+              "details": [
+                {
+                  "name": "Kiko Router",
+                  "room_name": "Living room",
+                  "device_type": "Router"
+                }
+              ],
+              "hotspot_id": "001",
+              "y": "310",
+              "x": "16"
+            },
+            {
+              "desc": "desc_of_switch",
+              "img_id": "0001",
+              "details": [
+                {
+                  "name": "Living Room Switch 1",
+                  "room_name": "Living room",
+                  "device_type": "Switch",
+                  "mac_id_wifi": "a8:60:b6:11:f0:ae",
+                  "mac_id_plc": "b8:70:b7:22:f1:fa"
+                }
+              ],
+              "hotspot_id": "002",
+              "y": "290",
+              "x": "200"
+            },
+            {
+              "desc": "desc_of_switch",
+              "img_id": "0001",
+              "details": [
+                {
+                  "name": "Bar Switch 1",
+                  "room_name": "Bar",
+                  "device_type": "Switch",
+                  "mac_id_wifi": "a9:80:b6:11:f0:ae",
+                  "mac_id_plc": "c8:70:b7:33:f5:ta"
+                }
+              ],
+              "hotspot_id": "003",
+              "y": "100",
+              "x": "200"
+            },
+            {
+              "desc": "desc_of_point",
+              "img_id": "0001",
+              "details": [
+                {
+                  "name": "Living Room Point 1",
+                  "room_name": "Living Room",
+                  "device_type": "Point",
+                  "mac_id_wifi": "a0:80:b8:66:f0:ba",
+                  "mac_id_plc": "c9:80:b7:22:f5:df"
+                }
+              ],
+              "hotspot_id": "004",
+              "y": "150",
+              "x": "500"
+            }
+          ]
+        }
+       ]
+    }
+  ],
+  "type": "Array"
+}

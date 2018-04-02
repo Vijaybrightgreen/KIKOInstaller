@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4003E201E703F7300FDB036 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E1F1E703F7300FDB036 /* ForgotPasswordViewController.swift */; };
+		B4003E221E703F9900FDB036 /* CustomUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E211E703F9900FDB036 /* CustomUtil.swift */; };
+		B4003E241E703FAD00FDB036 /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E231E703FAD00FDB036 /* GlobalClass.swift */; };
+		B4003E261E703FBA00FDB036 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E251E703FBA00FDB036 /* ThemeColor.swift */; };
+		B4003E281E703FE900FDB036 /* ExpandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E271E703FE900FDB036 /* ExpandCell.swift */; };
+		B4003E2A1E703FFA00FDB036 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4003E291E703FFA00FDB036 /* FileUtil.swift */; };
+		B41390831F10BB8000BA020C /* EditCircuitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41390821F10BB8000BA020C /* EditCircuitsViewController.swift */; };
+		B41B6DA31E4C3B6500731BF4 /* QuotesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B6DA21E4C3B6500731BF4 /* QuotesListModel.swift */; };
+		B41B6DA51E4C3BBF00731BF4 /* QuotesListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B6DA41E4C3BBF00731BF4 /* QuotesListStore.swift */; };
+		B41FA1701E3887E4006806BB /* InstallationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FA16F1E3887E4006806BB /* InstallationViewController.swift */; };
+		B41FA1741E38C5B1006806BB /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FA1731E38C5B1006806BB /* MaintenanceViewController.swift */; };
+		B4494E181E3B511500871F26 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4494E171E3B511400871F26 /* SetupViewController.swift */; };
+		B4518E391E1BE71F001B48D1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4518E381E1BE71F001B48D1 /* SignUpViewController.swift */; };
+		B45C916E1E65ABCE0033BB16 /* House_Plan.json in Resources */ = {isa = PBXBuildFile; fileRef = B45C916D1E65ABCE0033BB16 /* House_Plan.json */; };
+		B460AAED1E9F548500815BF7 /* AssignCircuitToPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460AAEC1E9F548500815BF7 /* AssignCircuitToPointViewController.swift */; };
+		B46290971F0E0A74001A313F /* InstallationSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46290961F0E0A74001A313F /* InstallationSummaryViewController.swift */; };
+		B46401D51F0B6B72000EBCCC /* 10 Fake Street.json in Resources */ = {isa = PBXBuildFile; fileRef = B46401D41F0B6B72000EBCCC /* 10 Fake Street.json */; };
+		B46409101F27481900D54D40 /* 40 Wallaby Way.json in Resources */ = {isa = PBXBuildFile; fileRef = B464090F1F27481900D54D40 /* 40 Wallaby Way.json */; };
+		B464182A1E35E6EB00C24DDA /* HomeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46418291E35E6EB00C24DDA /* HomeMenuViewController.swift */; };
+		B464447B1E1F9F2A0038ADE9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464447A1E1F9F2A0038ADE9 /* MenuViewController.swift */; };
+		B464447D1E1F9FEC0038ADE9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464447C1E1F9FEC0038ADE9 /* MenuTableViewCell.swift */; };
+		B464B3651E138D280088B36C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464B3641E138D280088B36C /* AppDelegate.swift */; };
+		B464B3671E138D280088B36C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464B3661E138D280088B36C /* SplashViewController.swift */; };
+		B464B36A1E138D280088B36C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B464B3681E138D280088B36C /* Main.storyboard */; };
+		B464B36D1E138D280088B36C /* KikoInstaller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B464B36B1E138D280088B36C /* KikoInstaller.xcdatamodeld */; };
+		B464B36F1E138D280088B36C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B464B36E1E138D280088B36C /* Assets.xcassets */; };
+		B464B3721E138D280088B36C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B464B3701E138D280088B36C /* LaunchScreen.storyboard */; };
+		B464B37D1E138D280088B36C /* KikoInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464B37C1E138D280088B36C /* KikoInstallerTests.swift */; };
+		B464B3881E138D280088B36C /* KikoInstallerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B464B3871E138D280088B36C /* KikoInstallerUITests.swift */; };
+		B4661D2F1F037A860088FC02 /* test_withOpacity.json in Resources */ = {isa = PBXBuildFile; fileRef = B4661D2E1F037A860088FC02 /* test_withOpacity.json */; };
+		B4661D311F03817A0088FC02 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B4661D301F03817A0088FC02 /* test.json */; };
+		B4661D331F0390CA0088FC02 /* jpeg_opacity.json in Resources */ = {isa = PBXBuildFile; fileRef = B4661D321F0390CA0088FC02 /* jpeg_opacity.json */; };
+		B466EA001FCEF81A0017C769 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B466E9FF1FCEF81A0017C769 /* QuotesViewController.swift */; };
+		B467EC2C1F309B2000298561 /* 55 Border Drive.json in Resources */ = {isa = PBXBuildFile; fileRef = B467EC2B1F309B2000298561 /* 55 Border Drive.json */; };
+		B46A32991F8F4D7A0012693F /* ActivateSwitchSensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46A32981F8F4D7A0012693F /* ActivateSwitchSensorsViewController.swift */; };
+		B46B55D51FBB0E1F0098926A /* point_selection_WT.gif in Resources */ = {isa = PBXBuildFile; fileRef = B46B55D41FBB0E1F0098926A /* point_selection_WT.gif */; };
+		B46C9CB11E67F91500050EC4 /* ConfirmPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C9CB01E67F91500050EC4 /* ConfirmPlanViewController.swift */; };
+		B46D095B1E58508E00FF8A68 /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D095A1E58508E00FF8A68 /* PlanModel.swift */; };
+		B46E64471E485F8100250038 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46E64461E485F8100250038 /* SWRevealViewController.m */; };
+		B46E64491E485FFA00250038 /* dashboard.json in Resources */ = {isa = PBXBuildFile; fileRef = B46E64481E485FFA00250038 /* dashboard.json */; };
+		B46EACC41E7FB275005D2DF4 /* AssignCircuitToSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46EACC31E7FB275005D2DF4 /* AssignCircuitToSwitchViewController.swift */; };
+		B471E2921E4B665B00B3F232 /* MaintenanceListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E2911E4B665A00B3F232 /* MaintenanceListModel.swift */; };
+		B471E2941E4B685000B3F232 /* MaintenanceListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471E2931E4B685000B3F232 /* MaintenanceListStore.swift */; };
+		B472569D1EC430CB00A7226D /* newhomeplan.json in Resources */ = {isa = PBXBuildFile; fileRef = B472569C1EC430CB00A7226D /* newhomeplan.json */; };
+		B4725E981EE8072900DE7500 /* kiko.der in Resources */ = {isa = PBXBuildFile; fileRef = B4725E971EE8072900DE7500 /* kiko.der */; };
+		B4725E9A1EE8164400DE7500 /* server.der in Resources */ = {isa = PBXBuildFile; fileRef = B4725E991EE8164400DE7500 /* server.der */; };
+		B4728EB31E3CA5C2001B3C88 /* InstallationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4728EB21E3CA5C2001B3C88 /* InstallationListModel.swift */; };
+		B4728EB51E3CA7DD001B3C88 /* InstallationListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4728EB41E3CA7DD001B3C88 /* InstallationListStore.swift */; };
+		B4728EB71E3CAC71001B3C88 /* InstallationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4728EB61E3CAC71001B3C88 /* InstallationCell.swift */; };
+		B47300151F2F52E700810C1F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47300141F2F52E700810C1F /* AccountViewController.swift */; };
+		B47350841E694A9D001A177F /* TimeToSetupRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47350831E694A9D001A177F /* TimeToSetupRouterViewController.swift */; };
+		B47350861E6950A3001A177F /* RouterInstallLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47350851E6950A3001A177F /* RouterInstallLocationViewController.swift */; };
+		B47741381E742E310053C41B /* ConfirmSwitchNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47741371E742E310053C41B /* ConfirmSwitchNameViewController.swift */; };
+		B477E1F61EB064570099A407 /* ConnectToRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477E1F51EB064570099A407 /* ConnectToRouterViewController.swift */; };
+		B4784F2D1E7125E400871D86 /* HomeMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4784F2C1E7125E400871D86 /* HomeMenuTableViewCell.swift */; };
+		B4784F2F1E716ABD00871D86 /* RouterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4784F2E1E716ABD00871D86 /* RouterDetailsViewController.swift */; };
+		B4784F311E71968400871D86 /* TimeToAddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4784F301E71968400871D86 /* TimeToAddDeviceViewController.swift */; };
+		B4784F331E719BF600871D86 /* DeviceSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4784F321E719BF600871D86 /* DeviceSetupViewController.swift */; };
+		B478955D1F022E5F005B0B99 /* Small_HomePlan_with_Circuits.json in Resources */ = {isa = PBXBuildFile; fileRef = B478955C1F022E5F005B0B99 /* Small_HomePlan_with_Circuits.json */; };
+		B47962A71E38700300AEAABF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47962A61E38700300AEAABF /* Home.storyboard */; };
+		B47962A91E387F9600AEAABF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47962A81E387F9600AEAABF /* SearchViewController.swift */; };
+		B4797D8E1ED86A70009AC3F3 /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4797D8D1ED86A6F009AC3F3 /* Properties.plist */; };
+		B47AB01A1EA73C430086FBAB /* HttpsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47AB0191EA73C430086FBAB /* HttpsClient.swift */; };
+		B47BF76D1E81562200263347 /* SearchRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BF76C1E81562200263347 /* SearchRootViewController.swift */; };
+		B47CE0D41F28AE5900437D57 /* LoginSsoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CE0D31F28AE5900437D57 /* LoginSsoViewController.swift */; };
+		B47CE0D61F28D3A600437D57 /* openssl.der in Resources */ = {isa = PBXBuildFile; fileRef = B47CE0D51F28D3A600437D57 /* openssl.der */; };
+		B47CE0D81F28E90F00437D57 /* brightgreen.der in Resources */ = {isa = PBXBuildFile; fileRef = B47CE0D71F28E90F00437D57 /* brightgreen.der */; };
+		B482CF831E8D3BBA0009B1DA /* InstallationFilePlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482CF821E8D3BB90009B1DA /* InstallationFilePlansViewController.swift */; };
+		B4833BD11E892A750067E229 /* CustomDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4833BD01E892A750067E229 /* CustomDropDown.xib */; };
+		B4833BD31E892AD10067E229 /* CustomDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4833BD21E892AD10067E229 /* CustomDropDown.swift */; };
+		B4856D0B1E23627900799A42 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4856D0A1E23627900799A42 /* UserModel.swift */; };
+		B4856D0D1E23630900799A42 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4856D0C1E23630900799A42 /* UserStore.swift */; };
+		B4856D0F1E2375BC00799A42 /* checkUserId.json in Resources */ = {isa = PBXBuildFile; fileRef = B4856D0E1E2375BC00799A42 /* checkUserId.json */; };
+		B4856D111E239CAB00799A42 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4856D101E239CAB00799A42 /* HomeViewController.swift */; };
+		B48BEEDA1E7D4A3F00230491 /* ConfirmPointNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48BEED91E7D4A3F00230491 /* ConfirmPointNameViewController.swift */; };
+		B48EB0571F29C87500D232EF /* kikosso.der in Resources */ = {isa = PBXBuildFile; fileRef = B48EB0561F29C87500D232EF /* kikosso.der */; };
+		B48FAEE91E5B08F1001D60E0 /* PlanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48FAEE81E5B08F1001D60E0 /* PlanStore.swift */; };
+		B4911A121E446EF800937FD9 /* InstallationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4911A111E446EF800937FD9 /* InstallationSearchViewController.swift */; };
+		B4911A161E44987500937FD9 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4911A151E44987500937FD9 /* DashboardModel.swift */; };
+		B4911A181E44A0E100937FD9 /* DashboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4911A171E44A0E100937FD9 /* DashboardStore.swift */; };
+		B49DC66D1ED56BC300F71B29 /* MqttClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49DC66C1ED56BC300F71B29 /* MqttClient.swift */; };
+		B4B2E5381FD55056008ACA97 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2E5371FD55056008ACA97 /* SettingsViewController.swift */; };
+		B4B2E53A1FD5539F008ACA97 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2E5391FD5539F008ACA97 /* HistoryViewController.swift */; };
+		B4B2E53C1FD5566A008ACA97 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2E53B1FD5566A008ACA97 /* HelpViewController.swift */; };
+		B4C705F91E13C631005AA4D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C705F81E13C631005AA4D8 /* LoginViewController.swift */; };
+		BFFCD9B6C2B18AE65F8E16F7 /* Pods_KikoInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE9CB58CB230E1726FD54E6 /* Pods_KikoInstaller.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D4F16C4A20625EB300CC5DAF /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F16C4920625EB300CC5DAF /* InitViewController.swift */; };
+		D4F16C522062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F16C4E2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.m */; };
+		D4F16C532062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F16C502062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m */; };
+		D4F16C55206263CB00CC5DAF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D4F16C54206263CB00CC5DAF /* awsconfiguration.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B464B3791E138D280088B36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B464B3591E138D280088B36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B464B3601E138D280088B36C;
+			remoteInfo = KikoInstaller;
+		};
+		B464B3841E138D280088B36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B464B3591E138D280088B36C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B464B3601E138D280088B36C;
+			remoteInfo = KikoInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF309E9E8B5B272E2BD00CF /* Pods-KikoInstaller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KikoInstaller.release.xcconfig"; path = "Pods/Target Support Files/Pods-KikoInstaller/Pods-KikoInstaller.release.xcconfig"; sourceTree = "<group>"; };
+		1F989D71B912E67F8DC7DCC9 /* Pods-KikoInstaller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KikoInstaller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KikoInstaller/Pods-KikoInstaller.debug.xcconfig"; sourceTree = "<group>"; };
+		7EE9CB58CB230E1726FD54E6 /* Pods_KikoInstaller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KikoInstaller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4003E1F1E703F7300FDB036 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B4003E211E703F9900FDB036 /* CustomUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomUtil.swift; path = KikoInstaller/CustomUtil.swift; sourceTree = "<group>"; };
+		B4003E231E703FAD00FDB036 /* GlobalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalClass.swift; path = KikoInstaller/GlobalClass.swift; sourceTree = "<group>"; };
+		B4003E251E703FBA00FDB036 /* ThemeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeColor.swift; path = KikoInstaller/ThemeColor.swift; sourceTree = "<group>"; };
+		B4003E271E703FE900FDB036 /* ExpandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExpandCell.swift; path = KikoInstaller/ExpandCell.swift; sourceTree = "<group>"; };
+		B4003E291E703FFA00FDB036 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileUtil.swift; path = KikoInstaller/FileUtil.swift; sourceTree = "<group>"; };
+		B41390821F10BB8000BA020C /* EditCircuitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCircuitsViewController.swift; sourceTree = "<group>"; };
+		B41B6DA21E4C3B6500731BF4 /* QuotesListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesListModel.swift; sourceTree = "<group>"; };
+		B41B6DA41E4C3BBF00731BF4 /* QuotesListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesListStore.swift; sourceTree = "<group>"; };
+		B41FA16F1E3887E4006806BB /* InstallationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationViewController.swift; sourceTree = "<group>"; };
+		B41FA1731E38C5B1006806BB /* MaintenanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		B4494E171E3B511400871F26 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		B4518E381E1BE71F001B48D1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B45C916D1E65ABCE0033BB16 /* House_Plan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = House_Plan.json; sourceTree = "<group>"; };
+		B460AAEC1E9F548500815BF7 /* AssignCircuitToPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignCircuitToPointViewController.swift; sourceTree = "<group>"; };
+		B46290961F0E0A74001A313F /* InstallationSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationSummaryViewController.swift; sourceTree = "<group>"; };
+		B46401D41F0B6B72000EBCCC /* 10 Fake Street.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "10 Fake Street.json"; sourceTree = "<group>"; };
+		B464090F1F27481900D54D40 /* 40 Wallaby Way.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "40 Wallaby Way.json"; sourceTree = "<group>"; };
+		B46418291E35E6EB00C24DDA /* HomeMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuViewController.swift; sourceTree = "<group>"; };
+		B46444761E1F6BED0038ADE9 /* KikoInstaller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KikoInstaller-Bridging-Header.h"; sourceTree = "<group>"; };
+		B464447A1E1F9F2A0038ADE9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B464447C1E1F9FEC0038ADE9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		B464B3611E138D280088B36C /* KikoInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KikoInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B464B3641E138D280088B36C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B464B3661E138D280088B36C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B464B3691E138D280088B36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B464B36C1E138D280088B36C /* KikoInstaller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KikoInstaller.xcdatamodel; sourceTree = "<group>"; };
+		B464B36E1E138D280088B36C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B464B3711E138D280088B36C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B464B3731E138D280088B36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B464B3781E138D280088B36C /* KikoInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KikoInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B464B37C1E138D280088B36C /* KikoInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KikoInstallerTests.swift; sourceTree = "<group>"; };
+		B464B37E1E138D280088B36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B464B3831E138D280088B36C /* KikoInstallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KikoInstallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B464B3871E138D280088B36C /* KikoInstallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KikoInstallerUITests.swift; sourceTree = "<group>"; };
+		B464B3891E138D280088B36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4661D2E1F037A860088FC02 /* test_withOpacity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test_withOpacity.json; sourceTree = "<group>"; };
+		B4661D301F03817A0088FC02 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		B4661D321F0390CA0088FC02 /* jpeg_opacity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpeg_opacity.json; sourceTree = "<group>"; };
+		B466E9FF1FCEF81A0017C769 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		B467EC2B1F309B2000298561 /* 55 Border Drive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "55 Border Drive.json"; sourceTree = "<group>"; };
+		B46A32981F8F4D7A0012693F /* ActivateSwitchSensorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateSwitchSensorsViewController.swift; sourceTree = "<group>"; };
+		B46B55D41FBB0E1F0098926A /* point_selection_WT.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = point_selection_WT.gif; sourceTree = "<group>"; };
+		B46C9CB01E67F91500050EC4 /* ConfirmPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPlanViewController.swift; sourceTree = "<group>"; };
+		B46D095A1E58508E00FF8A68 /* PlanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
+		B46E64451E485F8100250038 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B46E64461E485F8100250038 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B46E64481E485FFA00250038 /* dashboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dashboard.json; sourceTree = "<group>"; };
+		B46EACC31E7FB275005D2DF4 /* AssignCircuitToSwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignCircuitToSwitchViewController.swift; sourceTree = "<group>"; };
+		B471E2911E4B665A00B3F232 /* MaintenanceListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceListModel.swift; sourceTree = "<group>"; };
+		B471E2931E4B685000B3F232 /* MaintenanceListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceListStore.swift; sourceTree = "<group>"; };
+		B472569C1EC430CB00A7226D /* newhomeplan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newhomeplan.json; sourceTree = "<group>"; };
+		B4725E971EE8072900DE7500 /* kiko.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = kiko.der; sourceTree = "<group>"; };
+		B4725E991EE8164400DE7500 /* server.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = server.der; sourceTree = "<group>"; };
+		B4728EB21E3CA5C2001B3C88 /* InstallationListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationListModel.swift; sourceTree = "<group>"; };
+		B4728EB41E3CA7DD001B3C88 /* InstallationListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationListStore.swift; sourceTree = "<group>"; };
+		B4728EB61E3CAC71001B3C88 /* InstallationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstallationCell.swift; path = KikoInstaller/InstallationCell.swift; sourceTree = "<group>"; };
+		B47300141F2F52E700810C1F /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B47350831E694A9D001A177F /* TimeToSetupRouterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeToSetupRouterViewController.swift; sourceTree = "<group>"; };
+		B47350851E6950A3001A177F /* RouterInstallLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterInstallLocationViewController.swift; sourceTree = "<group>"; };
+		B47741371E742E310053C41B /* ConfirmSwitchNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSwitchNameViewController.swift; sourceTree = "<group>"; };
+		B477E1F51EB064570099A407 /* ConnectToRouterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectToRouterViewController.swift; sourceTree = "<group>"; };
+		B4784F2C1E7125E400871D86 /* HomeMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeMenuTableViewCell.swift; sourceTree = "<group>"; };
+		B4784F2E1E716ABD00871D86 /* RouterDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterDetailsViewController.swift; sourceTree = "<group>"; };
+		B4784F301E71968400871D86 /* TimeToAddDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeToAddDeviceViewController.swift; sourceTree = "<group>"; };
+		B4784F321E719BF600871D86 /* DeviceSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSetupViewController.swift; sourceTree = "<group>"; };
+		B478955C1F022E5F005B0B99 /* Small_HomePlan_with_Circuits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Small_HomePlan_with_Circuits.json; sourceTree = "<group>"; };
+		B47962A61E38700300AEAABF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B47962A81E387F9600AEAABF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B4797D8D1ED86A6F009AC3F3 /* Properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		B47AB0191EA73C430086FBAB /* HttpsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpsClient.swift; path = KikoInstaller/HttpsClient.swift; sourceTree = "<group>"; };
+		B47BF76C1E81562200263347 /* SearchRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRootViewController.swift; sourceTree = "<group>"; };
+		B47CE0D31F28AE5900437D57 /* LoginSsoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSsoViewController.swift; sourceTree = "<group>"; };
+		B47CE0D51F28D3A600437D57 /* openssl.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = openssl.der; sourceTree = "<group>"; };
+		B47CE0D71F28E90F00437D57 /* brightgreen.der */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = brightgreen.der; sourceTree = "<group>"; };
+		B482CF821E8D3BB90009B1DA /* InstallationFilePlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationFilePlansViewController.swift; sourceTree = "<group>"; };
+		B4833BD01E892A750067E229 /* CustomDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomDropDown.xib; path = KikoInstaller/CustomDropDown.xib; sourceTree = "<group>"; };
+		B4833BD21E892AD10067E229 /* CustomDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomDropDown.swift; path = KikoInstaller/CustomDropDown.swift; sourceTree = "<group>"; };
+		B4856D0A1E23627900799A42 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B4856D0C1E23630900799A42 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		B4856D0E1E2375BC00799A42 /* checkUserId.json */ = {isa = PBXFileReference; explicitFileType = text.json; fileEncoding = 4; path = checkUserId.json; sourceTree = "<group>"; };
+		B4856D101E239CAB00799A42 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B48BEED91E7D4A3F00230491 /* ConfirmPointNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPointNameViewController.swift; sourceTree = "<group>"; };
+		B48EB0561F29C87500D232EF /* kikosso.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = kikosso.der; sourceTree = "<group>"; };
+		B48FAEE81E5B08F1001D60E0 /* PlanStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanStore.swift; sourceTree = "<group>"; };
+		B4911A111E446EF800937FD9 /* InstallationSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationSearchViewController.swift; sourceTree = "<group>"; };
+		B4911A151E44987500937FD9 /* DashboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		B4911A171E44A0E100937FD9 /* DashboardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardStore.swift; sourceTree = "<group>"; };
+		B49DC66C1ED56BC300F71B29 /* MqttClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MqttClient.swift; path = KikoInstaller/MqttClient.swift; sourceTree = "<group>"; };
+		B4B2E5371FD55056008ACA97 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B4B2E5391FD5539F008ACA97 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B4B2E53B1FD5566A008ACA97 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		B4C705F81E13C631005AA4D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4F16C4920625EB300CC5DAF /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		D4F16C4D2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_WJAE3OJA7E_Empty.h; sourceTree = "<group>"; };
+		D4F16C4E2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_WJAE3OJA7E_Empty.m; sourceTree = "<group>"; };
+		D4F16C4F2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.h; sourceTree = "<group>"; };
+		D4F16C502062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m; sourceTree = "<group>"; };
+		D4F16C512062638A00CC5DAF /* Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		D4F16C54206263CB00CC5DAF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B464B35E1E138D280088B36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFCD9B6C2B18AE65F8E16F7 /* Pods_KikoInstaller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B3751E138D280088B36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B3801E138D280088B36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E87A3BA84EF6CECA4C4567D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F989D71B912E67F8DC7DCC9 /* Pods-KikoInstaller.debug.xcconfig */,
+				1CF309E9E8B5B272E2BD00CF /* Pods-KikoInstaller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		534850A4BA27E985B4EAAB18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9CB58CB230E1726FD54E6 /* Pods_KikoInstaller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4518E371E1BDBDF001B48D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4003E211E703F9900FDB036 /* CustomUtil.swift */,
+				B4728EB61E3CAC71001B3C88 /* InstallationCell.swift */,
+				B4003E231E703FAD00FDB036 /* GlobalClass.swift */,
+				B4003E271E703FE900FDB036 /* ExpandCell.swift */,
+				B4003E251E703FBA00FDB036 /* ThemeColor.swift */,
+				B4003E291E703FFA00FDB036 /* FileUtil.swift */,
+				B4833BD01E892A750067E229 /* CustomDropDown.xib */,
+				B4833BD21E892AD10067E229 /* CustomDropDown.swift */,
+				B47AB0191EA73C430086FBAB /* HttpsClient.swift */,
+				B49DC66C1ED56BC300F71B29 /* MqttClient.swift */,
+			);
+			name = Utils;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B464B3581E138D280088B36C = {
+			isa = PBXGroup;
+			children = (
+				B464B3631E138D280088B36C /* KikoInstaller */,
+				B464B37B1E138D280088B36C /* KikoInstallerTests */,
+				B464B3861E138D280088B36C /* KikoInstallerUITests */,
+				B464B3621E138D280088B36C /* Products */,
+				4E87A3BA84EF6CECA4C4567D /* Pods */,
+				534850A4BA27E985B4EAAB18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B464B3621E138D280088B36C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B464B3611E138D280088B36C /* KikoInstaller.app */,
+				B464B3781E138D280088B36C /* KikoInstallerTests.xctest */,
+				B464B3831E138D280088B36C /* KikoInstallerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B464B3631E138D280088B36C /* KikoInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				B49A36A81E1A946F00567300 /* Model */,
+				B49A36AA1E1A948500567300 /* Controller */,
+				B49A36AB1E1A949A00567300 /* Store */,
+				B4518E371E1BDBDF001B48D1 /* Utils */,
+				B4725E9C1EE8344100DE7500 /* View */,
+				B4725E9D1EE8493900DE7500 /* Supporting Files */,
+				B464B3641E138D280088B36C /* AppDelegate.swift */,
+				D4F16C4B2062638A00CC5DAF /* AmazonAws */,
+				B464B36E1E138D280088B36C /* Assets.xcassets */,
+				B464B3731E138D280088B36C /* Info.plist */,
+				D4F16C54206263CB00CC5DAF /* awsconfiguration.json */,
+				B4797D8D1ED86A6F009AC3F3 /* Properties.plist */,
+				B464B36B1E138D280088B36C /* KikoInstaller.xcdatamodeld */,
+			);
+			path = KikoInstaller;
+			sourceTree = "<group>";
+		};
+		B464B37B1E138D280088B36C /* KikoInstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B464B37C1E138D280088B36C /* KikoInstallerTests.swift */,
+				B464B37E1E138D280088B36C /* Info.plist */,
+			);
+			path = KikoInstallerTests;
+			sourceTree = "<group>";
+		};
+		B464B3861E138D280088B36C /* KikoInstallerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B464B3871E138D280088B36C /* KikoInstallerUITests.swift */,
+				B464B3891E138D280088B36C /* Info.plist */,
+			);
+			path = KikoInstallerUITests;
+			sourceTree = "<group>";
+		};
+		B4725E9B1EE82BFF00DE7500 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B4856D0E1E2375BC00799A42 /* checkUserId.json */,
+				B46E64481E485FFA00250038 /* dashboard.json */,
+				B45C916D1E65ABCE0033BB16 /* House_Plan.json */,
+				B472569C1EC430CB00A7226D /* newhomeplan.json */,
+				B478955C1F022E5F005B0B99 /* Small_HomePlan_with_Circuits.json */,
+				B4661D2E1F037A860088FC02 /* test_withOpacity.json */,
+				B4661D301F03817A0088FC02 /* test.json */,
+				B4661D321F0390CA0088FC02 /* jpeg_opacity.json */,
+				B46401D41F0B6B72000EBCCC /* 10 Fake Street.json */,
+				B464090F1F27481900D54D40 /* 40 Wallaby Way.json */,
+				B467EC2B1F309B2000298561 /* 55 Border Drive.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		B4725E9C1EE8344100DE7500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B464B3701E138D280088B36C /* LaunchScreen.storyboard */,
+				B464B3681E138D280088B36C /* Main.storyboard */,
+				B47962A61E38700300AEAABF /* Home.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B4725E9D1EE8493900DE7500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B46B55D41FBB0E1F0098926A /* point_selection_WT.gif */,
+				B4725E9E1EE8498600DE7500 /* Self Signed Certificates */,
+				B4725E9B1EE82BFF00DE7500 /* JSON */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4725E9E1EE8498600DE7500 /* Self Signed Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				B4725E971EE8072900DE7500 /* kiko.der */,
+				B4725E991EE8164400DE7500 /* server.der */,
+				B47CE0D51F28D3A600437D57 /* openssl.der */,
+				B47CE0D71F28E90F00437D57 /* brightgreen.der */,
+				B48EB0561F29C87500D232EF /* kikosso.der */,
+			);
+			name = "Self Signed Certificates";
+			sourceTree = "<group>";
+		};
+		B4856D091E23594600799A42 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B46E64451E485F8100250038 /* SWRevealViewController.h */,
+				B46E64461E485F8100250038 /* SWRevealViewController.m */,
+				B46444761E1F6BED0038ADE9 /* KikoInstaller-Bridging-Header.h */,
+				B464447C1E1F9FEC0038ADE9 /* MenuTableViewCell.swift */,
+				B464447A1E1F9F2A0038ADE9 /* MenuViewController.swift */,
+				B4784F2C1E7125E400871D86 /* HomeMenuTableViewCell.swift */,
+				B46418291E35E6EB00C24DDA /* HomeMenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		B49A36A81E1A946F00567300 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4856D0A1E23627900799A42 /* UserModel.swift */,
+				B4911A151E44987500937FD9 /* DashboardModel.swift */,
+				B4728EB21E3CA5C2001B3C88 /* InstallationListModel.swift */,
+				B471E2911E4B665A00B3F232 /* MaintenanceListModel.swift */,
+				B41B6DA21E4C3B6500731BF4 /* QuotesListModel.swift */,
+				B46D095A1E58508E00FF8A68 /* PlanModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B49A36AA1E1A948500567300 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4856D091E23594600799A42 /* Menu */,
+				B464B3661E138D280088B36C /* SplashViewController.swift */,
+				B4C705F81E13C631005AA4D8 /* LoginViewController.swift */,
+				B47CE0D31F28AE5900437D57 /* LoginSsoViewController.swift */,
+				B4003E1F1E703F7300FDB036 /* ForgotPasswordViewController.swift */,
+				B4518E381E1BE71F001B48D1 /* SignUpViewController.swift */,
+				B4856D101E239CAB00799A42 /* HomeViewController.swift */,
+				B47962A81E387F9600AEAABF /* SearchViewController.swift */,
+				B47BF76C1E81562200263347 /* SearchRootViewController.swift */,
+				B41FA16F1E3887E4006806BB /* InstallationViewController.swift */,
+				B482CF821E8D3BB90009B1DA /* InstallationFilePlansViewController.swift */,
+				B46C9CB01E67F91500050EC4 /* ConfirmPlanViewController.swift */,
+				B477E1F51EB064570099A407 /* ConnectToRouterViewController.swift */,
+				B47350831E694A9D001A177F /* TimeToSetupRouterViewController.swift */,
+				B47350851E6950A3001A177F /* RouterInstallLocationViewController.swift */,
+				B4784F2E1E716ABD00871D86 /* RouterDetailsViewController.swift */,
+				B4784F301E71968400871D86 /* TimeToAddDeviceViewController.swift */,
+				B4784F321E719BF600871D86 /* DeviceSetupViewController.swift */,
+				B47741371E742E310053C41B /* ConfirmSwitchNameViewController.swift */,
+				B46EACC31E7FB275005D2DF4 /* AssignCircuitToSwitchViewController.swift */,
+				B41390821F10BB8000BA020C /* EditCircuitsViewController.swift */,
+				B46A32981F8F4D7A0012693F /* ActivateSwitchSensorsViewController.swift */,
+				B48BEED91E7D4A3F00230491 /* ConfirmPointNameViewController.swift */,
+				B460AAEC1E9F548500815BF7 /* AssignCircuitToPointViewController.swift */,
+				B46290961F0E0A74001A313F /* InstallationSummaryViewController.swift */,
+				B4911A111E446EF800937FD9 /* InstallationSearchViewController.swift */,
+				B41FA1731E38C5B1006806BB /* MaintenanceViewController.swift */,
+				B4494E171E3B511400871F26 /* SetupViewController.swift */,
+				B466E9FF1FCEF81A0017C769 /* QuotesViewController.swift */,
+				B4B2E5391FD5539F008ACA97 /* HistoryViewController.swift */,
+				B4B2E5371FD55056008ACA97 /* SettingsViewController.swift */,
+				B47300141F2F52E700810C1F /* AccountViewController.swift */,
+				B4B2E53B1FD5566A008ACA97 /* HelpViewController.swift */,
+				D4F16C4920625EB300CC5DAF /* InitViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B49A36AB1E1A949A00567300 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B4856D0C1E23630900799A42 /* UserStore.swift */,
+				B4911A171E44A0E100937FD9 /* DashboardStore.swift */,
+				B4728EB41E3CA7DD001B3C88 /* InstallationListStore.swift */,
+				B471E2931E4B685000B3F232 /* MaintenanceListStore.swift */,
+				B41B6DA41E4C3BBF00731BF4 /* QuotesListStore.swift */,
+				B48FAEE81E5B08F1001D60E0 /* PlanStore.swift */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		D4F16C4B2062638A00CC5DAF /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				D4F16C4C2062638A00CC5DAF /* Api */,
+				D4F16C512062638A00CC5DAF /* Bridging_Header.h */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		D4F16C4C2062638A00CC5DAF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D4F16C4D2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.h */,
+				D4F16C4E2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.m */,
+				D4F16C4F2062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.h */,
+				D4F16C502062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B464B3601E138D280088B36C /* KikoInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B464B38C1E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstaller" */;
+			buildPhases = (
+				01EAB4FD51D657FC8E8C754E /* [CP] Check Pods Manifest.lock */,
+				B464B35D1E138D280088B36C /* Sources */,
+				B464B35E1E138D280088B36C /* Frameworks */,
+				B464B35F1E138D280088B36C /* Resources */,
+				05D49C7750829FCF7F7B35D6 /* [CP] Embed Pods Frameworks */,
+				2D25E27A143C7876AC83ECE9 /* [CP] Copy Pods Resources */,
+				B4A7A0BD1F8B96EE00D43570 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KikoInstaller;
+			productName = KikoInstaller;
+			productReference = B464B3611E138D280088B36C /* KikoInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B464B3771E138D280088B36C /* KikoInstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B464B38F1E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstallerTests" */;
+			buildPhases = (
+				B464B3741E138D280088B36C /* Sources */,
+				B464B3751E138D280088B36C /* Frameworks */,
+				B464B3761E138D280088B36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B464B37A1E138D280088B36C /* PBXTargetDependency */,
+			);
+			name = KikoInstallerTests;
+			productName = KikoInstallerTests;
+			productReference = B464B3781E138D280088B36C /* KikoInstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B464B3821E138D280088B36C /* KikoInstallerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B464B3921E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstallerUITests" */;
+			buildPhases = (
+				B464B37F1E138D280088B36C /* Sources */,
+				B464B3801E138D280088B36C /* Frameworks */,
+				B464B3811E138D280088B36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B464B3851E138D280088B36C /* PBXTargetDependency */,
+			);
+			name = KikoInstallerUITests;
+			productName = KikoInstallerUITests;
+			productReference = B464B3831E138D280088B36C /* KikoInstallerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B464B3591E138D280088B36C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eoxys Systems";
+				TargetAttributes = {
+					B464B3601E138D280088B36C = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					B464B3771E138D280088B36C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 88AV9Y7PG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B464B3601E138D280088B36C;
+					};
+					B464B3821E138D280088B36C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 88AV9Y7PG2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B464B3601E138D280088B36C;
+					};
+				};
+			};
+			buildConfigurationList = B464B35C1E138D280088B36C /* Build configuration list for PBXProject "KikoInstaller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B464B3581E138D280088B36C;
+			productRefGroup = B464B3621E138D280088B36C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B464B3601E138D280088B36C /* KikoInstaller */,
+				B464B3771E138D280088B36C /* KikoInstallerTests */,
+				B464B3821E138D280088B36C /* KikoInstallerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B464B35F1E138D280088B36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48EB0571F29C87500D232EF /* kikosso.der in Resources */,
+				B472569D1EC430CB00A7226D /* newhomeplan.json in Resources */,
+				B467EC2C1F309B2000298561 /* 55 Border Drive.json in Resources */,
+				B464B3721E138D280088B36C /* LaunchScreen.storyboard in Resources */,
+				B46B55D51FBB0E1F0098926A /* point_selection_WT.gif in Resources */,
+				B47CE0D61F28D3A600437D57 /* openssl.der in Resources */,
+				B4661D311F03817A0088FC02 /* test.json in Resources */,
+				B4833BD11E892A750067E229 /* CustomDropDown.xib in Resources */,
+				D4F16C55206263CB00CC5DAF /* awsconfiguration.json in Resources */,
+				B4725E981EE8072900DE7500 /* kiko.der in Resources */,
+				B47962A71E38700300AEAABF /* Home.storyboard in Resources */,
+				B46401D51F0B6B72000EBCCC /* 10 Fake Street.json in Resources */,
+				B464B36F1E138D280088B36C /* Assets.xcassets in Resources */,
+				B4661D331F0390CA0088FC02 /* jpeg_opacity.json in Resources */,
+				B478955D1F022E5F005B0B99 /* Small_HomePlan_with_Circuits.json in Resources */,
+				B464B36A1E138D280088B36C /* Main.storyboard in Resources */,
+				B46E64491E485FFA00250038 /* dashboard.json in Resources */,
+				B45C916E1E65ABCE0033BB16 /* House_Plan.json in Resources */,
+				B4797D8E1ED86A70009AC3F3 /* Properties.plist in Resources */,
+				B46409101F27481900D54D40 /* 40 Wallaby Way.json in Resources */,
+				B4725E9A1EE8164400DE7500 /* server.der in Resources */,
+				B47CE0D81F28E90F00437D57 /* brightgreen.der in Resources */,
+				B4856D0F1E2375BC00799A42 /* checkUserId.json in Resources */,
+				B4661D2F1F037A860088FC02 /* test_withOpacity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B3761E138D280088B36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B3811E138D280088B36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01EAB4FD51D657FC8E8C754E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KikoInstaller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05D49C7750829FCF7F7B35D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KikoInstaller/Pods-KikoInstaller-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KikoInstaller/Pods-KikoInstaller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D25E27A143C7876AC83ECE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KikoInstaller/Pods-KikoInstaller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A7A0BD1F8B96EE00D43570 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 30af3e46ae4d33e60316199fe08966b74522c275 8443eddab4527855dcad841db876a78922e0a5cb78da5d3d391b1fb9e2d631f5";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B464B35D1E138D280088B36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41B6DA31E4C3B6500731BF4 /* QuotesListModel.swift in Sources */,
+				B41FA1741E38C5B1006806BB /* MaintenanceViewController.swift in Sources */,
+				B46C9CB11E67F91500050EC4 /* ConfirmPlanViewController.swift in Sources */,
+				B4003E241E703FAD00FDB036 /* GlobalClass.swift in Sources */,
+				B4784F311E71968400871D86 /* TimeToAddDeviceViewController.swift in Sources */,
+				B48BEEDA1E7D4A3F00230491 /* ConfirmPointNameViewController.swift in Sources */,
+				B47350841E694A9D001A177F /* TimeToSetupRouterViewController.swift in Sources */,
+				B4784F2D1E7125E400871D86 /* HomeMenuTableViewCell.swift in Sources */,
+				B4518E391E1BE71F001B48D1 /* SignUpViewController.swift in Sources */,
+				B46D095B1E58508E00FF8A68 /* PlanModel.swift in Sources */,
+				B4728EB51E3CA7DD001B3C88 /* InstallationListStore.swift in Sources */,
+				B4C705F91E13C631005AA4D8 /* LoginViewController.swift in Sources */,
+				B471E2921E4B665B00B3F232 /* MaintenanceListModel.swift in Sources */,
+				B4494E181E3B511500871F26 /* SetupViewController.swift in Sources */,
+				B464182A1E35E6EB00C24DDA /* HomeMenuViewController.swift in Sources */,
+				B47350861E6950A3001A177F /* RouterInstallLocationViewController.swift in Sources */,
+				B466EA001FCEF81A0017C769 /* QuotesViewController.swift in Sources */,
+				B464447D1E1F9FEC0038ADE9 /* MenuTableViewCell.swift in Sources */,
+				B46290971F0E0A74001A313F /* InstallationSummaryViewController.swift in Sources */,
+				B4B2E53C1FD5566A008ACA97 /* HelpViewController.swift in Sources */,
+				B4003E201E703F7300FDB036 /* ForgotPasswordViewController.swift in Sources */,
+				D4F16C532062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_ProxyTestAPIClient.m in Sources */,
+				B4728EB71E3CAC71001B3C88 /* InstallationCell.swift in Sources */,
+				B464447B1E1F9F2A0038ADE9 /* MenuViewController.swift in Sources */,
+				B47300151F2F52E700810C1F /* AccountViewController.swift in Sources */,
+				B4B2E5381FD55056008ACA97 /* SettingsViewController.swift in Sources */,
+				B4911A121E446EF800937FD9 /* InstallationSearchViewController.swift in Sources */,
+				B41FA1701E3887E4006806BB /* InstallationViewController.swift in Sources */,
+				B41B6DA51E4C3BBF00731BF4 /* QuotesListStore.swift in Sources */,
+				B4856D0D1E23630900799A42 /* UserStore.swift in Sources */,
+				B46EACC41E7FB275005D2DF4 /* AssignCircuitToSwitchViewController.swift in Sources */,
+				B460AAED1E9F548500815BF7 /* AssignCircuitToPointViewController.swift in Sources */,
+				B471E2941E4B685000B3F232 /* MaintenanceListStore.swift in Sources */,
+				B47962A91E387F9600AEAABF /* SearchViewController.swift in Sources */,
+				B46E64471E485F8100250038 /* SWRevealViewController.m in Sources */,
+				B4911A181E44A0E100937FD9 /* DashboardStore.swift in Sources */,
+				B4003E281E703FE900FDB036 /* ExpandCell.swift in Sources */,
+				D4F16C4A20625EB300CC5DAF /* InitViewController.swift in Sources */,
+				B482CF831E8D3BBA0009B1DA /* InstallationFilePlansViewController.swift in Sources */,
+				B4784F331E719BF600871D86 /* DeviceSetupViewController.swift in Sources */,
+				B46A32991F8F4D7A0012693F /* ActivateSwitchSensorsViewController.swift in Sources */,
+				B47CE0D41F28AE5900437D57 /* LoginSsoViewController.swift in Sources */,
+				B47BF76D1E81562200263347 /* SearchRootViewController.swift in Sources */,
+				D4F16C522062638A00CC5DAF /* AWSAPI_WJAE3OJA7E_Empty.m in Sources */,
+				B41390831F10BB8000BA020C /* EditCircuitsViewController.swift in Sources */,
+				B4911A161E44987500937FD9 /* DashboardModel.swift in Sources */,
+				B464B3671E138D280088B36C /* SplashViewController.swift in Sources */,
+				B4003E261E703FBA00FDB036 /* ThemeColor.swift in Sources */,
+				B464B3651E138D280088B36C /* AppDelegate.swift in Sources */,
+				B49DC66D1ED56BC300F71B29 /* MqttClient.swift in Sources */,
+				B464B36D1E138D280088B36C /* KikoInstaller.xcdatamodeld in Sources */,
+				B4833BD31E892AD10067E229 /* CustomDropDown.swift in Sources */,
+				B47741381E742E310053C41B /* ConfirmSwitchNameViewController.swift in Sources */,
+				B4856D111E239CAB00799A42 /* HomeViewController.swift in Sources */,
+				B4784F2F1E716ABD00871D86 /* RouterDetailsViewController.swift in Sources */,
+				B4B2E53A1FD5539F008ACA97 /* HistoryViewController.swift in Sources */,
+				B4728EB31E3CA5C2001B3C88 /* InstallationListModel.swift in Sources */,
+				B4003E221E703F9900FDB036 /* CustomUtil.swift in Sources */,
+				B477E1F61EB064570099A407 /* ConnectToRouterViewController.swift in Sources */,
+				B4856D0B1E23627900799A42 /* UserModel.swift in Sources */,
+				B48FAEE91E5B08F1001D60E0 /* PlanStore.swift in Sources */,
+				B47AB01A1EA73C430086FBAB /* HttpsClient.swift in Sources */,
+				B4003E2A1E703FFA00FDB036 /* FileUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B3741E138D280088B36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B464B37D1E138D280088B36C /* KikoInstallerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B464B37F1E138D280088B36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B464B3881E138D280088B36C /* KikoInstallerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B464B37A1E138D280088B36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B464B3601E138D280088B36C /* KikoInstaller */;
+			targetProxy = B464B3791E138D280088B36C /* PBXContainerItemProxy */;
+		};
+		B464B3851E138D280088B36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B464B3601E138D280088B36C /* KikoInstaller */;
+			targetProxy = B464B3841E138D280088B36C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B464B3681E138D280088B36C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B464B3691E138D280088B36C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B464B3701E138D280088B36C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B464B3711E138D280088B36C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B464B38A1E138D280088B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B464B38B1E138D280088B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B464B38D1E138D280088B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F989D71B912E67F8DC7DCC9 /* Pods-KikoInstaller.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LF4P26KW3H;
+				INFOPLIST_FILE = KikoInstaller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KikoInstaller/KikoInstaller-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B464B38E1E138D280088B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF309E9E8B5B272E2BD00CF /* Pods-KikoInstaller.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LF4P26KW3H;
+				INFOPLIST_FILE = KikoInstaller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KikoInstaller/KikoInstaller-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B464B3901E138D280088B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 88AV9Y7PG2;
+				INFOPLIST_FILE = KikoInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KikoInstaller.app/KikoInstaller";
+			};
+			name = Debug;
+		};
+		B464B3911E138D280088B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 88AV9Y7PG2;
+				INFOPLIST_FILE = KikoInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstallerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KikoInstaller.app/KikoInstaller";
+			};
+			name = Release;
+		};
+		B464B3931E138D280088B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 88AV9Y7PG2;
+				INFOPLIST_FILE = KikoInstallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KikoInstaller;
+			};
+			name = Debug;
+		};
+		B464B3941E138D280088B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 88AV9Y7PG2;
+				INFOPLIST_FILE = KikoInstallerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eoxys.KikoInstallerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KikoInstaller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B464B35C1E138D280088B36C /* Build configuration list for PBXProject "KikoInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464B38A1E138D280088B36C /* Debug */,
+				B464B38B1E138D280088B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B464B38C1E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464B38D1E138D280088B36C /* Debug */,
+				B464B38E1E138D280088B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B464B38F1E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464B3901E138D280088B36C /* Debug */,
+				B464B3911E138D280088B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B464B3921E138D280088B36C /* Build configuration list for PBXNativeTarget "KikoInstallerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B464B3931E138D280088B36C /* Debug */,
+				B464B3941E138D280088B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B464B36B1E138D280088B36C /* KikoInstaller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B464B36C1E138D280088B36C /* KikoInstaller.xcdatamodel */,
+			);
+			currentVersion = B464B36C1E138D280088B36C /* KikoInstaller.xcdatamodel */;
+			path = KikoInstaller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B464B3591E138D280088B36C /* Project object */;
+}

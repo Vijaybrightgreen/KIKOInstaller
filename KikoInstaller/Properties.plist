@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Host</key>
+	<string>http://192.168.1.35:8084</string>
+	<key>Installer_Details</key>
+	<string>/rest_login/installer_details</string>
+	<key>House_Plan</key>
+	<string>/rest_installer/houseplan</string>
+	<key>Switch_Status</key>
+	<string>/rest_installer/switch_status</string>
+	<key>Point_Status</key>
+	<string>/rest_installer/point_status</string>
+	<key>Update_Switch</key>
+	<string>/rest_installer/update_switch</string>
+	<key>Update_Point</key>
+	<string>/rest_installer/update_point</string>
+	<key>Router_Config</key>
+	<string>/rest_installer/router_config</string>
+	<key>Router_Config_Check</key>
+	<string>/rest_installer/router_config_check</string>
+	<key>Room_Config</key>
+	<string>/rest_installer/room_config</string>
+	<key>Switch_Circuit_Config_Check</key>
+	<string>/rest_installer/switch_circuit_config_check</string>
+	<key>Swich_Circuit_Config</key>
+	<string>/rest_installer/switch_circuit_config</string>
+	<key>Point_Circuit_Config</key>
+	<string>/rest_installer/point_circuit_config</string>
+	<key>Edit_Circuit</key>
+	<string>/rest_installer/edit_circuit</string>
+	<key>Circuit_List</key>
+	<string>/rest_installer/circuit_list</string>
+	<key>Switch_Config</key>
+	<string>/rest_installer/switch_config</string>
+	<key>Point_Config</key>
+	<string>/rest_installer/point_config</string>
+	<key>Update_House_Plan</key>
+	<string>/rest_installer/update_houseplan</string>
+	<key>Installation_Summary</key>
+	<string>/rest_installer/installation_summary</string>
+</dict>
+</plist>

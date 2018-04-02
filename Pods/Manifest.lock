@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AWSAPIGateway (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSAuthCore (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSAuthUI (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+    - AWSCore (= 2.6.13)
+  - AWSCognitoIdentityProvider (2.6.13):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.13)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.13)
+  - AWSMobileClient (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+  - AWSUserPoolsSignIn (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+    - AWSCognitoIdentityProvider (= 2.6.13)
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - CocoaMQTT (1.0.11):
+    - CocoaAsyncSocket (~> 7.5.1)
+    - MSWeakTimer (~> 1.1.0)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - DLRadioButton (1.4.9)
+  - DropDown (2)
+  - Fabric (1.7.2)
+  - Material (2.6.3):
+    - Material/Core (= 2.6.3)
+  - Material/Core (2.6.3)
+  - MSWeakTimer (1.1.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - AWSAPIGateway (~> 2.6.6)
+  - AWSAuthCore
+  - AWSAuthUI (~> 2.6.6)
+  - AWSMobileClient (~> 2.6.6)
+  - AWSUserPoolsSignIn (~> 2.6.6)
+  - CocoaMQTT (~> 1.0)
+  - Crashlytics (~> 3.9.3)
+  - DLRadioButton (~> 1.4)
+  - DropDown (~> 2)
+  - Fabric (~> 1.7.2)
+  - Material (~> 2.6)
+  - SwiftyJSON (~> 3.1.4)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AWSAPIGateway: ae494773514af2129d0d5da55c5e5782df13bc27
+  AWSAuthCore: 821990b7fc2febe5ed5eb42199ea55ee22ac911d
+  AWSAuthUI: 8c11af8f87939479cd0d94bd840e030eb599db3a
+  AWSCognitoIdentityProvider: c532434167c99ec42126447a83c6a2f2ea18f678
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSMobileClient: bf1c341c91f82eda8f757cd96dc0cbb3d1f0b768
+  AWSUserPoolsSignIn: 6d5a7dedeac2e3f2a84d7c838a5df85aa386f1c7
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  CocoaMQTT: 157db54cd2c7f63ff6e2e15190bbd9be7a9affcc
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  Material: af607a7ec0e9978ef85cf189a3d8ceeeb650400f
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 48576bacc6fa1de6c67c89b3870f0c881d3108c4
+
+COCOAPODS: 1.4.0
